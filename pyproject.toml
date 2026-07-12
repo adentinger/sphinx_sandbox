@@ -1,0 +1,28 @@
+[project]
+name = "lumache"
+version = "1.0"
+description = "Python library for cooks and food lovers that creates recipes mixing random ingredients."
+authors = [
+    {name = "Anthony Dentinger", email = "adentinger.dev@gmail.com"},
+]
+dependencies = [
+    "sphinx>=9.0.0"
+]
+requires-python = ">=3.12"
+# The README.md isn't on the repository; it's copied to this directory
+# when running "pdm run build" from the repo's root. This is because using
+# "../../README.md" here causes a build issue with PDM at the moment.
+readme = "README.md"
+license = {text = "GPL-2.0-only"}
+classifiers = [
+]
+
+[tool.pdm.scripts]
+doc_html = "sphinx-build -M html docs/src/ docs/build/"
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+[tool.setuptools.packages.find]
+where = ["src"]
