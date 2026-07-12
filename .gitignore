@@ -1,6 +1,6 @@
 !/.vscode/
 
-/docs/build/
+/build/
 
 # For 'pyenv local <version>'
 /.python-version
