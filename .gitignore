@@ -1,0 +1,16 @@
+!/.vscode/
+
+# For 'pyenv local <version>'
+/.python-version
+
+# Workdir of 'pdm run bundle'
+/bundle/
+
+**/*.egg-info/
+**/__pycache__/
+# Python vitrual environment
+.venv/
+.pdm-python
+# Result of pdm build
+/dist/
+/packages/*/dist/
