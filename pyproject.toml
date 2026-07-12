@@ -19,6 +19,7 @@ classifiers = [
 
 [tool.pdm.scripts]
 doc_html = "sphinx-build -M html docs/source/ docs/build/"
+doc = {composite = ["doc_html"]}
 
 [build-system]
 requires = ["pdm-backend"]
