@@ -15,3 +15,9 @@ Facts database <https://world.openfoodfacts.org/>`_ and offers a *simple* and
    :maxdepth: 2
    :caption: Contents:
 
+Contents
+--------
+
+.. toctree::
+
+   usage
