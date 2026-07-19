@@ -36,3 +36,7 @@ will raise an exception.
 .. py:exception:: lumache.InvalidKindError
 
    Raised if the kind is invalid.
+
+>>> import lumache
+>>> lumache.get_random_ingredients()
+['shells', 'gorgonzola', 'parsley']
