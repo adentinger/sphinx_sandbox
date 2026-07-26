@@ -1,6 +1,8 @@
 !/.vscode/
 
 /build/
+# E.g. sources of autosummary
+/source/generated/
 
 # For 'pyenv local <version>'
 /.python-version
