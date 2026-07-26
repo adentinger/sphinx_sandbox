@@ -12,9 +12,9 @@ def get_random_ingredients(kind=None):
     The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
     or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
     will raise an exception.
-
-    .. py:exception:: lumache.InvalidKindError
-
-    Raised if the kind is invalid.
     """
     return ["shells", "gorgonzola", "parsley"]
+
+class InvalidKindError(Exception):
+    """Raised if the kind is invalid."""
+    pass
