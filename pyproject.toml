@@ -6,7 +6,8 @@ authors = [
     {name = "Anthony Dentinger", email = "adentinger.dev@gmail.com"},
 ]
 dependencies = [
-    "sphinx>=9.0.0"
+    "sphinx>=9.0.0",
+    "furo>=2025.12.19",
 ]
 requires-python = ">=3.12"
 # The README.md isn't on the repository; it's copied to this directory
